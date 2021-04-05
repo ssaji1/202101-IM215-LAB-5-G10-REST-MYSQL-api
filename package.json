@@ -1,0 +1,20 @@
+{
+  "name": "202101-IM215-REST-MYSQL-api",
+  "version": "1.0.0",
+  "description": "This is a tutorial on REST APIs using Express",
+  "main": "index.js",
+  "repository": "https://ecoelhor@github.com/ecoelhor/202101-IM215-REST-MYSQL-api.git",
+  "author": "Eduardo Reis <eduardo4jesus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <title>Example</title>
+</head>
+<body class="container border rounded">
+  <h1>Create User</h1>
+  <form class='createUser' onsubmit='createUser(event)'>
+    <label for='firstName'>First Name</label>
+    <input id='firstName' type="text">
+    <label for='lastName'>Last Name</label>
+    <input id='lastName' type="text">
+    <label for='age'>Age</label>
+    <input id='age' type="number">
+    <input type="submit">
+  </form>
+
+  <!-- <br><br>
+  <hr>
+  <h1>Update User</h1>
+  <form class='createUser' onsubmit='updateUser(event)'>
+    <label for='firstName3'>First Name</label>
+    <input id='firstName3' type="text">
+    <label for='lastName3'>Last Name</label>
+    <input id='lastName3' type="text">
+    <label for='age3'>Age</label>
+    <input id='age3' type="number">
+    <input type="submit">
+  </form> -->
+
+  <br><br>
+  <hr>
+
+  <h1>Listing Users</h1>
+  <table>
+    <thead>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Age</th>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <br>
+  <button onclick="requestUsers()">Load Users</button>
+
+  <br>
+  <br>
+  <hr>
+
+  <h1>Getting User by Id</h1>
+  <form class="retrieveUser" onsubmit="retrieveUser(event)">
+    <label for='userId'>User Id</label>
+    <input id='userId' type='number' title='id'>
+    <input type="submit"><br><br>
+    <label for='firstName2'>First Name</label>
+    <input id='firstName2' type='text' disabled><br><br>
+    <label for='lastName2'>Last Name</label>
+    <input id='lastName2' type='text' disabled>
+  </form>
+
+
+  <br><br>
+  <hr>
+
+  <h1>Delete User</h1>
+  <p>For you to practice at home</p>
+
+  <hr>
+
+  <!-- <h1>Testing</h1>
+  <button onclick="test()">Test It</button>
+  <br><br> -->
+
+</body>
+</html>

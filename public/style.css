@@ -1,0 +1,13 @@
+table, tr, th, td {
+  border: solid 2px black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  width: 150px;
+}
+
+thead {
+  background-color: lightgray;
+}
